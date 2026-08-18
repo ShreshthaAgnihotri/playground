@@ -1,7 +1,7 @@
 #THIS PROGRAM IS TO CONVERT A GIVEN INTEGER INTO ROMAN NUMERAL BETWEEN 1 TO 3999
 
 
-n = int(input())
+n = int(input("Enter a number between 1 and 3999: "))
 if n<1 or n>3999:
     print("Invalid input")
 else:
@@ -12,5 +12,5 @@ else:
         while n>=val[i]:
             a+=rom[i]
             n-=val[i]
-    print(a)    
+    print("The Roman numeral is: ", a)    
     
