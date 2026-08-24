@@ -1,3 +1,5 @@
+#THIS PROGRAM IS TO FIND NO OF EVEN , ODD AND ZEROES IN GIVEN NUMBER
+
 n = int(input("ENTER A NUMBER:"))
 oddcount = 0
 evencount = 0
