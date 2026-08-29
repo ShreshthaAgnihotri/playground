@@ -1,5 +1,5 @@
 import random
-print("-------------------------------GUESS THE NUMBER-------------------------------")
+
 def register():
     print("REGISTER YOURSELF--------------->")
     username = input("CREATE USERNAME: ")
